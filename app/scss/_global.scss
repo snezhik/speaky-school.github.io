@@ -1,0 +1,44 @@
+html,
+body{
+    height:100%;
+
+}
+body{
+    font-size: 16px;
+    line-height: 26px;
+    @extend %roboto-400;
+    color: #000;
+    letter-spacing: 0.02em;
+}
+
+
+.container{
+    padding: 0 20px;
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+
+.title{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    
+}
+
+.title-bg{
+    height: 20px;
+    max-width: 100%;
+    border-bottom: 10px solid $background-title;
+    margin-bottom: 45px;
+  
+}
+
+
+
+
+
+
+
+
+
